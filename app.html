@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Pobreflix | Buscá películas sin poder verlas!</title>
+	</head>
+	<body>
+		<div class="welcome">
+			<h2>BIENVENIDO A</h2>
+			<span class="welcome-logo text-flicker-in-glow">POBREFLIX</span>
+			<p>El mejor lugar para encontrar películas sin poder mirarlas!</p>
+			<a href="#" class="welcome-button">Ingresar</a>
+		</div>
+		<nav>
+			<div class="logo"><a href="#">POBREFLIX</a></div>
+			<div class="links"></div>
+		</nav>
+		<section id="busqueda">
+			<div>
+				<form>
+					<input type="text" placeholder="Buscar una película..." /><button
+						class="button-buscar"
+					>
+						Buscar
+					</button>
+				</form>
+			</div>
+		</section>
+		<section>
+			<div class="search-results"></div>
+		</section>
+		<section id="peliculas">
+			<div class="div-pelis">
+				<h2>Películas Populares</h2>
+				<div class="lista-pelis" id="lista-populares">
+					<!-- PELICULAS POPULARES -->
+				</div>
+			</div>
+			<div class="div-pelis">
+				<h2>Películas Mejor Puntuadas</h2>
+				<div class="lista-pelis" id="lista-top-rated">
+					<!-- PELICULAS POPULARES -->
+				</div>
+			</div>
+			<div class="div-pelis">
+				<h2>Próximas Películas</h2>
+				<div class="lista-pelis" id="lista-upcoming">
+					<!-- PELICULAS POPULARES -->
+				</div>
+			</div>
+		</section>
+		<script src="./app.js"></script>
+	</body>
+</html>
